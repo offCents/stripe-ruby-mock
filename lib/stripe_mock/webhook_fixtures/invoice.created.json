@@ -10,6 +10,7 @@
       "id": "in_00000000000000",
       "period_start": 1378082075,
       "period_end": 1380674075,
+      "due_date": 1378082075,
       "lines": {
         "count": 1,
         "object": "list",

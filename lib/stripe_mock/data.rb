@@ -335,6 +335,7 @@ module StripeMock
         date: 1349738950,
         period_end: 1349738950,
         period_start: 1349738950,
+        due_date: 1378082075,
         lines: {
           object: "list",
           total_count: lines.count,
