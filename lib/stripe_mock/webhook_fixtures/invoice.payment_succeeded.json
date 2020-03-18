@@ -24,6 +24,7 @@
       "lines": {
         "data": [{
           "id": "sub_00000000000000",
+          "unique_id": "li_00000000000000",
           "object": "line_item",
           "amount": 50,
           "currency": "eur",
@@ -56,7 +57,8 @@
           "type": "subscription"
         },
         {
-          "id": "sub_00000000000000",
+          "id": "sub_00000000000001",
+          "unique_id": "li_00000000000001",
           "object": "line_item",
           "amount": 50,
           "currency": "eur",

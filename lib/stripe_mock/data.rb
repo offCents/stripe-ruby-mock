@@ -383,6 +383,7 @@ module StripeMock
       currency = params[:currency] || StripeMock.default_currency
       {
         id: "ii_test",
+        unique_id: "li_test",
         object: "line_item",
         type: "invoiceitem",
         livemode: false,
@@ -406,6 +407,7 @@ module StripeMock
       currency = params[:currency] || StripeMock.default_currency
       {
         id: "test_ii",
+        unique_id: "li_test",
         object: "invoiceitem",
         date: 1349738920,
         amount: 1099,

@@ -17,6 +17,7 @@
         "data": [
           {
             "id": "ii_00000000000000",
+            "unique_id": "li_00000000000000",
             "object": "line_item",
             "type": "invoiceitem",
             "livemode": false,
@@ -34,6 +35,7 @@
           },
           {
             "id": "ii_00000000000001",
+            "unique_id": "li_00000000000001",
             "object": "line_item",
             "type": "invoiceitem",
             "livemode": false,
@@ -50,7 +52,8 @@
             "metadata": {}
           },
           {
-            "id": "su_00000000000000",
+            "id": "su_00000000000002",
+            "unique_id": "li_00000000000002",
             "object": "line_item",
             "type": "subscription",
             "livemode": false,

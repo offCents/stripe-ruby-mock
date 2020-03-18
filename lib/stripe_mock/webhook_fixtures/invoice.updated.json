@@ -17,6 +17,7 @@
         "data": [
           {
             "id": "su_00000000000000",
+            "unique_id": "li_00000000000000",
             "object": "line_item",
             "type": "subscription",
             "livemode": true,

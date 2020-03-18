@@ -151,6 +151,7 @@ module StripeMock
       def get_mock_subscription_line_item(subscription)
         Data.mock_line_item(
           id: subscription[:id],
+          unique_id: subscription[:id],
           type: "subscription",
           plan: subscription[:plan],
           amount: subscription[:status] == 'trialing' ? 0 : subscription[:plan][:amount] * subscription[:quantity],
