@@ -102,6 +102,7 @@ module StripeMock
           unused_amount = subscription[:plan][:amount] * subscription[:quantity] * (subscription[:current_period_end] - subscription_proration_date.to_i) / (subscription[:current_period_end] - subscription[:current_period_start])
           invoice_lines << Data.mock_line_item(
                                    id: new_id('ii'),
+                                   unique_id: new_id('li'),
                                    amount: -unused_amount,
                                    description: 'Unused time',
                                    plan: subscription[:plan],
@@ -118,6 +119,7 @@ module StripeMock
             remaining_amount = preview_plan[:amount] * subscription_quantity * (subscription[:current_period_end] - subscription_proration_date.to_i) / (subscription[:current_period_end] - subscription[:current_period_start])
             invoice_lines << Data.mock_line_item(
                                      id: new_id('ii'),
+                                     unique_id: new_id('li'),
                                      amount: remaining_amount,
                                      description: 'Remaining time',
                                      plan: preview_plan,
